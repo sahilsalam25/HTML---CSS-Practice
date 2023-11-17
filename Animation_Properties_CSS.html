@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation_CSS</title>
+    <style>
+div{
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+    border: 3px solid brown;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+     /* animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;   
+    animation-direction:reverse; */
+    /* Way to write Animation Shorthand Property in a single line: */
+    animation: colorAnimate 2s linear 3s infinite normal;
+}
+@keyframes colorAnimate{
+    /* from{
+        left: 0px;
+        background-color: yellow;
+    }
+    to{
+        left: 250px;
+        background-color: aqua;
+        color: white;
+    } */
+    0%{
+        left: 0px;
+        background-color: yellow;
+        font-size: 20px;
+    }
+    25%{
+        left: 250px;
+        background-color: aqua;
+        color: white;
+        font-size: 30x;
+    }
+    50%{
+        left: 0px;
+        background-color: red;
+        font-size: 40px;
+    }
+    100%{
+        left: 250px;
+        background-color: purple;
+        color: black;
+        font-size: 50px;
+    }
+    /* from{background-color: yellow;
+    }
+    to{background-color: purple;} */
+}
+div:hover{
+   
+    background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <div>
+        This is a Div_Box
+    </div>
+</body>
+</html>

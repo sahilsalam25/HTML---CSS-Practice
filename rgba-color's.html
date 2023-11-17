@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA Color's</title>
+    <style>
+        #first{
+            /* background-color: rgba(red, green, blue, alpha) */
+           background-color: rgba(255,0,0,0.25);
+           height: 100px;
+           width: 150px;
+           display: inline;
+           
+
+        }
+        #second{
+            background-color: rgba(255,0,0,0.50);
+            height: 300px;
+           width: 250px;
+           display: inline-block;
+        }
+        #third{
+            background-color: rgba(255,0,0,0.75);
+            height: 300px;
+           width: 250px;
+          display: inline;  /* when display property is set inline then we can't cahnge any value margin,padding,width...etc so that's why it's width & height is not changed... */
+        }
+        #fourth{
+            background-color: rgba(255,0,0,1);
+            height: 300px;
+           width: 250px;
+           display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="first">This is first Div</div>
+    <div id="second">This is second Div</div>
+    <div id="third">This is third Div</div>
+    <div id="fourth">This is fourth Div</div>
+</body>
+</html>
