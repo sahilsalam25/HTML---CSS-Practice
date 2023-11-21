@@ -1,0 +1,13 @@
+.outer{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* it is used to align items horizontally */
+    align-items:center;  /*it is used to align items vertically  */
+}
+.inner{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}

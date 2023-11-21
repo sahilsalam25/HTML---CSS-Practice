@@ -1,0 +1,27 @@
+#first{
+    /* background-color: rgba(red, green, blue, alpha) */
+   background-color: rgba(255,0,0,0.25);
+   height: 100px;
+   width: 150px;
+   display: inline;
+   
+
+}
+#second{
+    background-color: rgba(255,0,0,0.50);
+    height: 300px;
+   width: 250px;
+   display: inline-block;
+}
+#third{
+    background-color: rgba(255,0,0,0.75);
+    height: 300px;
+   width: 250px;
+  display: inline;  /* when display property is set inline then we can't cahnge any value margin,padding,width...etc so that's why it's width & height is not changed... */
+}
+#fourth{
+    background-color: rgba(255,0,0,1);
+    height: 300px;
+   width: 250px;
+   display: inline-block;
+}

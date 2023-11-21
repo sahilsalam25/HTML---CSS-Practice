@@ -1,0 +1,22 @@
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 3.8px solid black;
+    border-radius: 25%;
+}
+.second{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 183, 0);
+    border: 3.5px solid black;
+    border-radius: 50%;
+    /* if we have to create a circle in css then take the border radius=50% */
+}
+.third{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 0, 255);
+    border: 3px solid black;
+    border-radius: 7.5%;
+}

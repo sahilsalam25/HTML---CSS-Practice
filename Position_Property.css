@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 140px;
+    background-color: aquamarine;
+    display: inline-block;
+    border: 2px solid black;
+}
+.box1{
+    position: static;
+    background-color: green;
+    /* it means it is fixed it's position: ; can't be changed */
+}
+.box2{
+    position: relative;
+    background-color: skyblue;
+    top: 25px;
+    bottom:25px;
+    left: 25px;
+    right: 25px;
+    z-index: 1;
+
+}
+.box3{
+    position: fixed;
+    background-color: rebeccapurple;
+    top: 30px;
+    z-index: 15;
+}
+.box4{
+   position: fixed;   /* it is used for navigation or footer to fixed them at a fixed place */
+    right: 10px;
+    width: 100vw;
+    bottom: 0;
+
+    background-color: brown;
+}

@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation_CSS</title>
-    <link rel="stylesheet" href="Animation_Properties_CSS.css">
-    <!-- 
-    <style>
 div{
     width: 100px;
     height: 100px;
@@ -64,12 +55,3 @@ div:hover{
    
     background-color: aqua;
 }
-    </style>
-    -->
-</head>
-<body>
-    <div>
-        This is a Div_Box
-    </div>
-</body>
-</html>

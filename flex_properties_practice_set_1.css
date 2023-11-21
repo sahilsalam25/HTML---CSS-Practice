@@ -1,0 +1,15 @@
+.navbar {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    /* background-color: aqua; */
+  }
+  li {
+    list-style-type: none;
+
+    background-color: aquamarine;
+  }

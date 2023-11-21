@@ -1,0 +1,22 @@
+#box{
+    /* background-color: aquamarine; */
+    color: rgb(135, 43, 43);
+    text-align:start;
+    text-decoration: green wavy underline;
+    font-size: large;
+}
+/* .heading{
+    background-color: skyblue;
+    color: brown;
+} */
+h1,h2,h3{
+    background-color: skyblue;
+    color: rgb(161, 165, 42);
+    text-decoration: green wavy underline;
+}
+button{
+    color:rgb(56, 60, 149);
+}
+a{
+    text-decoration: none;
+}

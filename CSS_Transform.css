@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS_transform</title>
-    <link rel="stylesheet" href="CSS_Transform.css">
-    <!-- 
-    <style>
 div{
     width: 81px;
     height: 91px;
@@ -37,12 +28,3 @@ div:hover {
     
 
 }
-    </style>
-    -->
-</head>
-<body>
-    <div>
-        This is a Div
-    </div>
-</body>
-</html>

@@ -1,0 +1,34 @@
+*{ 
+    /* universal selector it is applies for all  */
+    /* background-image: url(SAHIL_SALAM.PIC.jpg); */
+    background-color: skyblue;
+   
+}
+#one{
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 600 ;
+}
+#two{
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: lowercase;
+    font-weight: bolder ;
+}
+#three{
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+#outer{
+   font-size:15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+#inner{
+    /* font-size: 10px; */
+}

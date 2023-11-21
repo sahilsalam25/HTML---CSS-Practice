@@ -1,0 +1,18 @@
+.container{
+    display:grid;
+    background-color: yellow;
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto ;
+    /* grid-template-columns: 95px 95px 95px 95px; */
+    /* grid-template-rows: 95px 95px 95px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    grid-column: 1/span 2;
+    grid-row: 1/2;
+}
+.item{
+    background-color: lightsalmon;
+    border: 2px solid black;
+}
